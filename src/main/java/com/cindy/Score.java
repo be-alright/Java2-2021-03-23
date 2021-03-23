@@ -4,7 +4,7 @@ import com.cindy.student.Student;
 
 public class Score {
     public static void main(String[] args) {
-        Student stu1 = new Student("Cindy", 40, 75);
+        Student stu1 = new Student("0001","Cindy",80,90);
         int average = stu1.average();
         System.out.println(average);
         if (average < 60) {
